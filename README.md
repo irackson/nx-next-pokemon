@@ -1,5 +1,3 @@
-
-
 # NxNextPokemon
 
 This project was generated using [Nx](https://nx.dev).
@@ -16,18 +14,18 @@ These capabilities include generating applications, libraries, etc as well as th
 
 Below are our core plugins:
 
-- [React](https://reactjs.org)
-  - `npm install --save-dev @nrwl/react`
-- Web (no framework frontends)
-  - `npm install --save-dev @nrwl/web`
-- [Angular](https://angular.io)
-  - `npm install --save-dev @nrwl/angular`
-- [Nest](https://nestjs.com)
-  - `npm install --save-dev @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `npm install --save-dev @nrwl/express`
-- [Node](https://nodejs.org)
-  - `npm install --save-dev @nrwl/node`
+-   [React](https://reactjs.org)
+    -   `npm install --save-dev @nrwl/react`
+-   Web (no framework frontends)
+    -   `npm install --save-dev @nrwl/web`
+-   [Angular](https://angular.io)
+    -   `npm install --save-dev @nrwl/angular`
+-   [Nest](https://nestjs.com)
+    -   `npm install --save-dev @nrwl/nest`
+-   [Express](https://expressjs.com)
+    -   `npm install --save-dev @nrwl/express`
+-   [Node](https://nodejs.org)
+    -   `npm install --save-dev @nrwl/node`
 
 There are also many [community plugins](https://nx.dev/community) you could add.
 
@@ -49,7 +47,7 @@ Libraries are shareable across libraries and applications. They can be imported 
 
 ## Development server
 
-Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run `nx serve my-app` for a dev server. Navigate to <http://localhost:4200/>. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -79,8 +77,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
 
-
-
 ## ☁ Nx Cloud
 
 ### Distributed Computation Caching & Distributed Task Execution
@@ -90,5 +86,3 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
 
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
-
-Visit [Nx Cloud](https://nx.app/) to learn more.
