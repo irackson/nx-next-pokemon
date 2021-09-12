@@ -7,6 +7,5 @@ describe('next-pokemon', () => {
         cy.get('input').first().type('bulb');
         cy.get('li').first().should('have.text', 'Bulbasaur');
         cy.get('body').screenshot();
-        console.log('yoaaaa');
     });
 });
