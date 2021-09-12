@@ -1,7 +1,10 @@
 import * as express from 'express';
 import { pokemon } from './pokemon';
-
 const app = express();
+// const cors = require('cors');
+import * as cors from 'cors';
+
+app.use(cors());
 
 app.get('/api', (req, res) => {
     res.send({ message: 'Welcome to api!' });
